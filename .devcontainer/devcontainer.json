@@ -1,0 +1,13 @@
+{
+  "name": "Kasm-Lite-Overkill",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "forwardPorts": [6080],
+  "remoteUser": "dev"
+}
